@@ -1,0 +1,20 @@
+{
+    "config": {
+      "features": [
+        {
+          "feature": "strato:tilted_tall_birch",
+          "chance": 0.28
+        },
+        {
+          "feature": "strato:big_tall_birch",
+          "chance": 0.47
+        },
+        {
+          "feature": "strato:normal_tall_birch",
+          "chance": 0.2
+        }
+      ],
+      "default": "strato:normal_tall_birch"
+    },
+    "type": "minecraft:random_selector"
+  }

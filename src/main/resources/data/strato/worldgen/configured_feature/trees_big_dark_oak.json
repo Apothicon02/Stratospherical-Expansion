@@ -1,0 +1,16 @@
+{
+    "config": {
+      "features": [
+        {
+          "feature": "strato:tilted_dark_oak",
+          "chance": 0.67
+        },
+        {
+          "feature": "strato:short_dark_oak",
+          "chance": 0.31
+        }
+      ],
+      "default": "minecraft:fancy_oak_bees_002"
+    },
+    "type": "minecraft:random_selector"
+  }

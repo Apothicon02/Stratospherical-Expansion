@@ -1,0 +1,35 @@
+{
+    "type": "minecraft:simple_block",
+    "config": {
+      "to_place": {
+        "type": "minecraft:weighted_state_provider",
+        "entries": [
+          {
+            "weight": 5,
+            "data": {
+              "Name": "minecraft:small_dripleaf"
+            }
+          },
+          {
+            "weight": 2,
+            "data": {
+              "Name": "minecraft:bamboo_sapling"
+            }
+          },
+          {
+            "weight": 2,
+            "data": {
+              "Name": "minecraft:pumpkin"
+            }
+          },
+          {
+            "weight": 28,
+            "data": {
+              "Name": "minecraft:grass"
+            }
+          }
+        ]
+      }
+    }
+  }
+  

@@ -1,0 +1,57 @@
+{
+  "feature": "strato:basic_grass",
+  "placement": [
+    {
+      "type": "minecraft:count",
+      "count": {
+        "type": "minecraft:uniform",
+        "value": {
+          "min_inclusive": 242,
+          "max_inclusive": 256
+        }
+      }
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "minecraft:height_range",
+      "height": {
+        "type": "minecraft:uniform",
+        "min_inclusive": {
+          "absolute": -60
+        },
+        "max_inclusive": {
+          "absolute": 318
+        }
+      }
+    },
+    {
+      "type": "minecraft:environment_scan",
+      "direction_of_search": "down",
+      "max_steps": 8,
+      "target_condition": {
+        "type": "minecraft:true"
+      },
+      "allowed_search_condition": {
+        "type": "minecraft:matching_blocks",
+        "offset": [
+          0,
+          -1,
+          0
+        ],
+        "blocks": [
+          "minecraft:grass_block",
+          "minecraft:dirt",
+          "minecraft:coarse_dirt",
+          "minecraft:rooted_dirt",
+          "minecraft:moss_block",
+          "minecraft:podzol"
+        ]
+      }
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

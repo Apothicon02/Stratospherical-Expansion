@@ -1,0 +1,16 @@
+{
+  "config": {
+    "features": [
+      {
+        "feature": "strato:oak_bush",
+        "chance": 0.77
+      },
+      {
+        "feature": "strato:dark_oak_bush",
+        "chance": 0.23
+      }
+    ],
+    "default": "strato:oak_bush"
+  },
+  "type": "minecraft:random_selector"
+}

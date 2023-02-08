@@ -1,0 +1,28 @@
+{
+  "config": {
+    "features": [
+      {
+        "feature": "minecraft:birch_bees_002",
+        "chance": 0.04
+      },
+      {
+        "feature": "strato:towering_mega_spruce",
+        "chance": 0.02
+      },
+      {
+        "feature": "strato:towering_spruce",
+        "chance": 0.16
+      },
+      {
+        "feature": "strato:branching_spruce",
+        "chance": 0.5
+      },
+      {
+        "feature": "strato:trunked_spruce",
+        "chance": 0.18
+      }
+    ],
+    "default": "strato:towering_spruce"
+  },
+  "type": "minecraft:random_selector"
+}

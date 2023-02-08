@@ -1,0 +1,40 @@
+{
+  "type": "minecraft:simple_block",
+  "config": {
+    "to_place": {
+      "type": "minecraft:weighted_state_provider",
+      "entries": [
+        {
+          "weight": 2,
+          "data": {
+            "Name": "minecraft:bamboo"
+          }
+        },
+        {
+          "weight": 1,
+          "data": {
+            "Name": "minecraft:bamboo_sapling"
+          }
+        },
+        {
+          "weight": 1,
+          "data": {
+            "Name": "minecraft:dead_bush"
+          }
+        },
+        {
+          "weight": 1,
+          "data": {
+            "Name": "minecraft:medium_amethyst_bud"
+          }
+        },
+        {
+          "weight": 8,
+          "data": {
+            "Name": "minecraft:grass"
+          }
+        }
+      ]
+    }
+  }
+}

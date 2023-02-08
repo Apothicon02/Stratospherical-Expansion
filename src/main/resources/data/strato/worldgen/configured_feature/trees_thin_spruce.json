@@ -1,0 +1,20 @@
+{
+  "config": {
+    "features": [
+      {
+        "feature": "minecraft:oak_bees_002",
+        "chance": 0.12
+      },
+      {
+        "feature": "strato:towering_spruce",
+        "chance": 0.12
+      },
+      {
+        "feature": "strato:oak_bush",
+        "chance": 0.66
+      }
+    ],
+    "default": "strato:towering_spruce"
+  },
+  "type": "minecraft:random_selector"
+}

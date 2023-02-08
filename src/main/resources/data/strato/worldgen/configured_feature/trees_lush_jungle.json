@@ -1,0 +1,20 @@
+{
+    "config": {
+      "features": [
+        {
+          "feature": "strato:twisted_oak",
+          "chance": 0.08
+        },
+        {
+          "feature": "strato:towering_jungle_tree",
+          "chance": 0.12
+        },
+        {
+          "feature": "minecraft:jungle_bush",
+          "chance": 0.7
+        }
+      ],
+      "default": "strato:branching_jungle_tree"
+    },
+    "type": "minecraft:random_selector"
+  }

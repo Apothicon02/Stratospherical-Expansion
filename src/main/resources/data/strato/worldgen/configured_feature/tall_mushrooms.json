@@ -1,0 +1,16 @@
+{
+  "config": {
+    "features": [
+      {
+        "feature": "strato:tilted_tall_mushroom",
+        "chance": 0.3
+      },
+      {
+        "feature": "strato:big_tall_mushroom",
+        "chance": 0.7
+      }
+    ],
+    "default": "strato:normal_tall_mushroom"
+  },
+  "type": "minecraft:random_selector"
+}

@@ -1,0 +1,39 @@
+{
+    "feature": "strato:trees_small_dark_oak",
+    "placement": [
+      {
+        "type": "minecraft:count",
+        "count": {
+          "type": "minecraft:weighted_list",
+          "distribution": [
+            {
+              "data": 0,
+              "weight": 15
+            },
+            {
+              "data": 3,
+              "weight": 1
+            },
+            {
+              "data": 2,
+              "weight": 4
+            }
+          ]
+        }
+      },
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "max_water_depth": 0,
+        "type": "minecraft:surface_water_depth_filter"
+      },
+      {
+        "heightmap": "OCEAN_FLOOR",
+        "type": "minecraft:heightmap"
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }

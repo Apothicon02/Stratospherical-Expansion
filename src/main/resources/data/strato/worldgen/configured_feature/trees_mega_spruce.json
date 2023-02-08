@@ -1,0 +1,16 @@
+{
+  "config": {
+    "features": [
+      {
+        "feature": "strato:towering_mega_spruce",
+        "chance": 0.9
+      },
+      {
+        "feature": "strato:towering_spruce",
+        "chance": 0.07
+      }
+    ],
+    "default": "strato:spruce_bush"
+  },
+  "type": "minecraft:random_selector"
+}

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:netherrack_replace_blobs",
+  "config": {
+    "state": {
+      "Name": "minecraft:calcite"
+    },
+    "target": {
+      "Name": "minecraft:deepslate"
+    },
+    "radius": {
+      "type": "minecraft:uniform",
+      "value": {
+        "min_inclusive": 1,
+        "max_inclusive": 5
+      }
+    }
+  }
+}

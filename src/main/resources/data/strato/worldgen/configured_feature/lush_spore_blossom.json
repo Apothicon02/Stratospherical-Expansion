@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:simple_block",
+  "config": {
+    "to_place": {
+      "type": "minecraft:weighted_state_provider",
+      "entries": [
+        {
+          "weight": 25,
+          "data": {
+            "Name": "minecraft:spore_blossom",
+            "Properties": {
+              "waterlogged": "false",
+              "facing": "down"
+            }
+          }
+        },
+        {
+          "weight": 75,
+          "data": {
+            "Name": "minecraft:glow_lichen",
+            "Properties": {
+              "waterlogged": "false",
+              "facing": "down"
+            }
+          }
+        }
+      ]
+    }
+  }
+}

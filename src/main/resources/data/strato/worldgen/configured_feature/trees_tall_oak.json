@@ -1,0 +1,16 @@
+{
+    "config": {
+      "features": [
+        {
+          "feature": "strato:tall_towering_oak",
+          "chance": 0.61
+        },
+        {
+          "feature": "strato:short_oak",
+          "chance": 0.26
+        }
+      ],
+      "default": "minecraft:oak_bees_002"
+    },
+    "type": "minecraft:random_selector"
+  }

@@ -1,0 +1,20 @@
+{
+  "config": {
+    "features": [
+      {
+        "feature": "strato:branching_oak",
+        "chance": 0.004
+      },
+      {
+        "feature": "strato:multi_acacia",
+        "chance": 0.256
+      },
+      {
+        "feature": "strato:mega_acacia",
+        "chance": 0.7
+      }
+    ],
+    "default": "strato:azalea_bush"
+  },
+  "type": "minecraft:random_selector"
+}

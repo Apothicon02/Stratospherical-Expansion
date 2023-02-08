@@ -1,0 +1,22 @@
+{
+  "type": "strato:spheroid_rock",
+  "config": {
+    "blobMaterial": {
+      "Name": "minecraft:stone"
+    },
+    "blobWidth": {
+      "type": "minecraft:uniform",
+      "value": {
+        "min_inclusive": 1,
+        "max_inclusive": 3
+      }
+    },
+    "blobHeight": {
+      "type": "minecraft:uniform",
+      "value": {
+        "min_inclusive": 1,
+        "max_inclusive": 2
+      }
+    }
+  }
+}

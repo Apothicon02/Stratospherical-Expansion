@@ -1,0 +1,43 @@
+{
+    "feature": "strato:trees_tall_spruce",
+    "placement": [
+      {
+        "type": "minecraft:count",
+        "count": {
+          "type": "minecraft:weighted_list",
+          "distribution": [
+            {
+              "data": 0,
+              "weight": 2
+            },
+            {
+              "data": 1,
+              "weight": 6
+            },
+            {
+              "data": 4,
+              "weight": 13
+            },
+            {
+              "data": 2,
+              "weight": 22
+            }
+          ]
+        }
+      },
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "max_water_depth": 0,
+        "type": "minecraft:surface_water_depth_filter"
+      },
+      {
+        "heightmap": "OCEAN_FLOOR",
+        "type": "minecraft:heightmap"
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }

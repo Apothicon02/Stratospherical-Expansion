@@ -1,0 +1,24 @@
+{
+  "config": {
+    "features": [
+      {
+        "feature": "strato:branching_oak",
+        "chance": 0.01
+      },
+      {
+        "feature": "strato:multi_swamp",
+        "chance": 0.25
+      },
+      {
+        "feature": "strato:mega_swamp_big",
+        "chance": 0.11
+      },
+      {
+        "feature": "strato:mega_swamp_small",
+        "chance": 0.6
+      }
+    ],
+    "default": "strato:multi_acacia"
+  },
+  "type": "minecraft:random_selector"
+}
