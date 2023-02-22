@@ -1,3 +1,22 @@
 {
-
+  "biome.strato.stratospherical_badlands": "Stratospherical Badlands",
+  "biome.strato.stratospherical_birch_forest": "Stratospherical Birch Forest",
+  "biome.strato.stratospherical_dark_forest": "Stratospherical Dark Forest",
+  "biome.strato.stratospherical_desert": "Stratospherical Desert",
+  "biome.strato.stratospherical_flower_forest": "Stratospherical Flower Forest",
+  "biome.strato.stratospherical_forest": "Stratospherical Forest",
+  "biome.strato.stratospherical_ice_spikes": "Stratospherical Ice Spikes",
+  "biome.strato.stratospherical_jungle": "Stratospherical Jungle",
+  "biome.strato.stratospherical_mushroom_fields": "Stratospherical Mushroom Fields",
+  "biome.strato.stratospherical_old_growth_birch_forest": "Stratospherical Old Growth Birch Forest",
+  "biome.strato.stratospherical_old_growth_pine_taiga": "Stratospherical Old Growth Pine Taiga",
+  "biome.strato.stratospherical_old_growth_spruce_taiga": "Stratospherical Old Growth Spruce Taiga",
+  "biome.strato.stratospherical_plains": "Stratospherical Plains",
+  "biome.strato.stratospherical_savanna": "Stratospherical Savanna",
+  "biome.strato.stratospherical_snowy_plains": "Stratospherical Snowy Plains",
+  "biome.strato.stratospherical_snowy_taiga": "Stratospherical Snowy Taiga",
+  "biome.strato.stratospherical_sparse_jungle": "Stratospherical Sparse Jungle",
+  "biome.strato.stratospherical_swamp": "Stratospherical Swamp",
+  "biome.strato.stratospherical_taiga": "Stratospherical Taiga",
+  "biome.strato.stratospherical_windswept_forest": "Stratospherical Windswept Forest"
 }

@@ -1,12 +1,10 @@
 package com.Apothic0n.StratosphericalExpansion;
 
-import com.Apothic0n.StratosphericalExpansion.api.biome.StratoSurfaceRuleData;
 import com.Apothic0n.StratosphericalExpansion.api.biome.features.StratoFeatureRegistry;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
-import terrablender.api.SurfaceRuleManager;
 
 @Mod(StratosphericalExpansion.MODID)
 public class StratosphericalExpansion {
@@ -21,7 +19,7 @@ public class StratosphericalExpansion {
 
     private void commonSetup(final FMLCommonSetupEvent event) {
         event.enqueueWork(() -> {
-            SurfaceRuleManager.setDefaultSurfaceRules(SurfaceRuleManager.RuleCategory.OVERWORLD, StratoSurfaceRuleData.makeRules());
+
         });
     }
 }
