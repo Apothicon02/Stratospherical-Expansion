@@ -119,7 +119,132 @@
     "water_ambient": [],
     "misc": []
   },
-  "spawn_costs": {},
+  "spawn_costs": {
+    "minecraft:cow": {
+      "energy_budget": 0.12,
+      "charge": 1
+    },
+    "minecraft:sheep": {
+      "energy_budget": 0.12,
+      "charge": 1
+    },
+    "minecraft:pig": {
+      "energy_budget": 0.12,
+      "charge": 1
+    },
+    "minecraft:chicken": {
+      "energy_budget": 0.12,
+      "charge": 1
+    },
+    "minecraft:mooshroom": {
+      "energy_budget": 0.12,
+      "charge": 1
+    },
+    "minecraft:horse": {
+      "energy_budget": 0.12,
+      "charge": 1
+    },
+    "minecraft:donkey": {
+      "energy_budget": 0.12,
+      "charge": 1
+    },
+    "minecraft:mule": {
+      "energy_budget": 0.12,
+      "charge": 1
+    },
+    "minecraft:llama": {
+      "energy_budget": 0.12,
+      "charge": 1
+    },
+    "minecraft:bee": {
+      "energy_budget": 0.12,
+      "charge": 1
+    },
+    "minecraft:parrot": {
+      "energy_budget": 0.12,
+      "charge": 1
+    },
+    "minecraft:pufferfish": {
+      "energy_budget": 0.12,
+      "charge": 1
+    },
+    "minecraft:tropical_fish": {
+      "energy_budget": 0.12,
+      "charge": 1
+    },
+    "minecraft:cod": {
+      "energy_budget": 0.12,
+      "charge": 1
+    },
+    "minecraft:salmon": {
+      "energy_budget": 0.12,
+      "charge": 1
+    },
+    "minecraft:zombie": {
+      "energy_budget": 0.12,
+      "charge": 1
+    },
+    "minecraft:zombie_villager": {
+      "energy_budget": 0.12,
+      "charge": 1
+    },
+    "minecraft:stray": {
+      "energy_budget": 0.12,
+      "charge": 1
+    },
+    "minecraft:husk": {
+      "energy_budget": 0.12,
+      "charge": 1
+    },
+    "minecraft:skeleton": {
+      "energy_budget": 0.12,
+      "charge": 1
+    },
+    "minecraft:creeper": {
+      "energy_budget": 0.12,
+      "charge": 1
+    },
+    "minecraft:cave_spider": {
+      "energy_budget": 0.12,
+      "charge": 1
+    },
+    "minecraft:spider": {
+      "energy_budget": 0.12,
+      "charge": 1
+    },
+    "minecraft:slime": {
+      "energy_budget": 0.12,
+      "charge": 1
+    },
+    "minecraft:enderman": {
+      "energy_budget": 0.12,
+      "charge": 1
+    },
+    "minecraft:witch": {
+      "energy_budget": 0.12,
+      "charge": 1
+    },
+    "minecraft:turtle": {
+      "energy_budget": 0.12,
+      "charge": 1
+    },
+    "minecraft:bat": {
+      "energy_budget": 0.12,
+      "charge": 1
+    },
+    "minecraft:squid": {
+      "energy_budget": 0.12,
+      "charge": 1
+    },
+    "minecraft:glow_squid": {
+      "energy_budget": 0.12,
+      "charge": 1
+    },
+    "minecraft:axolotl": {
+      "energy_budget": 0.12,
+      "charge": 1
+    }
+  },
   "carvers": {
     "air": [
       "minecraft:cave",
