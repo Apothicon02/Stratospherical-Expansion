@@ -1,7 +1,7 @@
 {
   "temperature": 0.8,
   "downfall": 0.9,
-  "precipitation": "rain",
+  "has_precipitation": true,
   "category": "swamp",
   "effects": {
     "sky_color": 7972607,
@@ -98,6 +98,12 @@
         "weight": 5,
         "minCount": 2,
         "maxCount": 4
+      },
+      {
+        "type": "minecraft:frog",
+        "weight": 60,
+        "minCount": 3,
+        "maxCount": 7
       }
     ],
     "ambient": [
@@ -289,7 +295,6 @@
   "features": [
     [],
     [
-      "minecraft:lake_lava_underground",
       "minecraft:lake_lava_surface"
     ],
     [

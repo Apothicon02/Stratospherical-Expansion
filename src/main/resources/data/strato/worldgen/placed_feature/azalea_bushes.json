@@ -1,0 +1,68 @@
+{
+  "feature": "strato:azalea_bush",
+  "placement": [
+    {
+      "type": "minecraft:count",
+      "count": {
+        "type": "minecraft:weighted_list",
+        "distribution": [
+          {
+            "data": 5,
+            "weight": 1
+          },
+          {
+            "data": 3,
+            "weight": 6
+          },
+          {
+            "data": 1,
+            "weight": 32
+          },
+          {
+            "data": 2,
+            "weight": 22
+          },
+          {
+            "data": 0,
+            "weight": 22
+          }
+        ]
+      }
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "minecraft:surface_water_depth_filter",
+      "max_water_depth": 0
+    },
+    {
+      "type": "minecraft:heightmap",
+      "heightmap": "OCEAN_FLOOR"
+    },
+    {
+      "type": "minecraft:block_predicate_filter",
+      "predicate": {
+        "type": "minecraft:matching_blocks",
+        "offset": [
+          0,
+          -1,
+          0
+        ],
+        "blocks": [
+          "minecraft:snow_block",
+          "minecraft:grass_block",
+          "minecraft:dirt",
+          "minecraft:podzol",
+          "minecraft:coarse_dirt",
+          "minecraft:mycelium",
+          "minecraft:moss_block",
+          "minecraft:red_sand"
+        ]
+      }
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

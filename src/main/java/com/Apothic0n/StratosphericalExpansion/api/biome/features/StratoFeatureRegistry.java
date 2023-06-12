@@ -1,7 +1,7 @@
 package com.Apothic0n.StratosphericalExpansion.api.biome.features;
 
-import com.Apothic0n.StartosphericalExpansion.api.biome.features.configurations.RockConfiguration;
-import com.Apothic0n.StartosphericalExpansion.api.biome.features.types.SpheroidRockFeature;
+import com.Apothic0n.StratosphericalExpansion.api.biome.features.configurations.RockConfiguration;
+import com.Apothic0n.StratosphericalExpansion.api.biome.features.types.SpheroidRockFeature;
 import net.minecraft.world.level.levelgen.feature.Feature;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;

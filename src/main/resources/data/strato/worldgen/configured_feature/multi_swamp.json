@@ -21,7 +21,7 @@
     "trunk_provider": {
       "type": "minecraft:simple_state_provider",
       "state": {
-        "Name": "minecraft:oak_wood",
+        "Name": "minecraft:mangrove_wood",
         "Properties": {
           "axis": "y"
         }
@@ -68,7 +68,8 @@
         "type": "minecraft:trunk_vine"
       },
       {
-        "type": "minecraft:leave_vine"
+        "type": "minecraft:leave_vine",
+        "probability": 1
       }
     ]
   }

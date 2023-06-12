@@ -1,4 +1,4 @@
-package com.Apothic0n.StartosphericalExpansion.api.biome.features.configurations;
+package com.Apothic0n.StratosphericalExpansion.api.biome.features.configurations;
 
 import com.mojang.serialization.Codec;
 import com.mojang.serialization.codecs.RecordCodecBuilder;

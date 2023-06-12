@@ -1,14 +1,13 @@
-package com.Apothic0n.StartosphericalExpansion.api.biome.features.types;
+package com.Apothic0n.StratosphericalExpansion.api.biome.features.types;
 
-import com.Apothic0n.StartosphericalExpansion.api.biome.features.configurations.RockConfiguration;
+import com.Apothic0n.StratosphericalExpansion.api.biome.features.configurations.RockConfiguration;
 import com.mojang.serialization.Codec;
 import net.minecraft.core.BlockPos;
+import net.minecraft.util.RandomSource;
 import net.minecraft.world.level.WorldGenLevel;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.levelgen.feature.Feature;
 import net.minecraft.world.level.levelgen.feature.FeaturePlaceContext;
-
-import java.util.Random;
 
 public class SpheroidRockFeature extends Feature<RockConfiguration> {
     public SpheroidRockFeature(Codec<RockConfiguration> pContext) {
@@ -18,7 +17,7 @@ public class SpheroidRockFeature extends Feature<RockConfiguration> {
     public boolean place(FeaturePlaceContext<RockConfiguration> pContext) {
         WorldGenLevel worldgenlevel = pContext.level();
         BlockPos blockpos = pContext.origin();
-        Random random = pContext.random();
+        RandomSource random = pContext.random();
         RockConfiguration config = pContext.config();
         Block blobMaterial = config.blobMaterial.getBlock();
         Integer blobWidth = config.getBlobWidth().sample(random);

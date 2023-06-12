@@ -1,7 +1,7 @@
 {
   "temperature": -0.8,
   "downfall": 0.3,
-  "precipitation": "snow",
+  "has_precipitation": true,
   "category": "icy",
   "effects": {
     "sky_color": 9817086,
@@ -244,7 +244,6 @@
   "features": [
     [],
     [
-      "minecraft:lake_lava_underground",
       "minecraft:lake_lava_surface"
     ],
     [

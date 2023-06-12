@@ -275,6 +275,7 @@ public class StratoSurfaceRuleData {
                 SurfaceRules.ifTrue(SurfaceRules.isBiome(Biomes.SPARSE_JUNGLE), grassyDripstoneCliffs),
                 SurfaceRules.ifTrue(SurfaceRules.isBiome(Biomes.JUNGLE), grassyDripstoneCliffs), //Lush Jungle
                 SurfaceRules.ifTrue(SurfaceRules.isBiome(Biomes.SWAMP), grassyDripstoneCliffs), //Mega Swamp
+                SurfaceRules.ifTrue(SurfaceRules.isBiome(Biomes.MANGROVE_SWAMP), grassyDripstoneCliffs),
 
                 SurfaceRules.ifTrue(SurfaceRules.isBiome(Biomes.DARK_FOREST), rootedCliffs), //Enriched Roofed Forest
 
@@ -282,6 +283,7 @@ public class StratoSurfaceRuleData {
 
                 SurfaceRules.ifTrue(SurfaceRules.isBiome(Biomes.OLD_GROWTH_BIRCH_FOREST), mossyCalciteCliffs),
                 SurfaceRules.ifTrue(SurfaceRules.isBiome(Biomes.BIRCH_FOREST), mossyCalciteCliffs), //Lush Birch
+                SurfaceRules.ifTrue(SurfaceRules.isBiome(Biomes.CHERRY_GROVE), mossyCalciteCliffs),
 
                 SurfaceRules.ifTrue(SurfaceRules.isBiome(Biomes.SNOWY_PLAINS), frozenGlacialCliffs), //Glacial Plains
 

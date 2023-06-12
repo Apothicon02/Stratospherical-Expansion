@@ -1,7 +1,7 @@
 {
   "temperature": 1.7,
   "downfall": 0.4,
-  "precipitation": "rain",
+  "has_precipitation": false,
   "category": "forest",
   "effects": {
     "sky_color": 7972607,
@@ -288,7 +288,6 @@
   "features": [
     [],
     [
-      "minecraft:lake_lava_underground",
       "minecraft:lake_lava_surface"
     ],
     [

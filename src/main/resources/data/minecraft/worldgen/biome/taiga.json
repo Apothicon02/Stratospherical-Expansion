@@ -1,7 +1,7 @@
 {
   "temperature": 0.25,
   "downfall": 0.8,
-  "precipitation": "rain",
+  "has_precipitation": true,
   "category": "taiga",
   "effects": {
     "sky_color": 8233983,
@@ -274,7 +274,6 @@
   "features": [
     [],
     [
-      "minecraft:lake_lava_underground",
       "minecraft:lake_lava_surface"
     ],
     [

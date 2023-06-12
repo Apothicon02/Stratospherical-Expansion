@@ -39,9 +39,9 @@ Stratospherical Expansion:
 Expanding the stratosphere!
 '''
 # A dependency - use the . to indicate dependency for a specific modid. Dependencies are optional.
-[[dependencies.StartosphericalExpansion]]
+[[dependencies.strato]]
     modId="terrablender"
     mandatory=true
-    versionRange="[1.1.0.70,)"
+    versionRange="[3.0.0.163,)"
     ordering="NONE"
     side="BOTH"
