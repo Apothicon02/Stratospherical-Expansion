@@ -1,7 +1,7 @@
 {
   "temperature": 1.7,
   "downfall": 0.4,
-  "precipitation": "rain",
+  "precipitation": "none",
   "category": "forest",
   "effects": {
     "sky_color": 7972607,
