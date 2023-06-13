@@ -2,14 +2,10 @@
   "feature": "strato:lush_cave_vine",
   "placement": [
     {
-      "type": "minecraft:count",
-      "count": {
-        "type": "minecraft:uniform",
-        "value": {
-          "min_inclusive": 6,
-          "max_inclusive": 75
-        }
-      }
+      "type": "minecraft:noise_based_count",
+      "noise_to_count_ratio": 69,
+      "noise_factor": 3,
+      "noise_offset": 0.115
     },
     {
       "type": "minecraft:in_square"

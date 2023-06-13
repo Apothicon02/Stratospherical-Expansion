@@ -30,7 +30,7 @@
         "state": {
           "Name": "minecraft:oak_leaves",
           "Properties": {
-            "persistent": "false",
+            "persistent": "true",
             "distance": "7"
           }
         }
