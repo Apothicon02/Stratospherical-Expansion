@@ -203,7 +203,6 @@
       "strato:patch_snow_layer"
     ],
     [
-      ,
       "strato:dense_powdered_snow_fall",
       "strato:amethyst_frosted_ice_crystals",
       "minecraft:freeze_top_layer"
