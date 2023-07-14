@@ -1,0 +1,35 @@
+{
+  "type": "strato:crystal_spike",
+  "config": {
+    "blockOn": {
+      "Name": "minecraft:smooth_basalt"
+    },
+    "blockOn2": {
+      "Name": "minecraft:deepslate"
+    },
+    "blobMaterial": {
+      "Name": "minecraft:amethyst_block"
+    },
+    "blobMass": {
+      "type": "minecraft:uniform",
+      "value": {
+        "min_inclusive": 3,
+        "max_inclusive": 6
+      }
+    },
+    "blobWidth": {
+      "type": "minecraft:uniform",
+      "value": {
+        "min_inclusive": 6,
+        "max_inclusive": 9
+      }
+    },
+    "blobHeight": {
+      "type": "minecraft:uniform",
+      "value": {
+        "min_inclusive": 3,
+        "max_inclusive": 4
+      }
+    }
+  }
+}

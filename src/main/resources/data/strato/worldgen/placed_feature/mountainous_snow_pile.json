@@ -1,0 +1,24 @@
+{
+  "feature": "strato:mountainous_snow_pile",
+  "placement": [
+    {
+      "type": "minecraft:random_offset",
+      "xz_spread": 0,
+      "y_spread": -2
+    },
+    {
+      "type": "minecraft:block_predicate_filter",
+      "predicate": {
+        "type": "minecraft:matching_blocks",
+        "offset": [
+          0,
+          1,
+          0
+        ],
+        "blocks": [
+          "minecraft:snow_block"
+        ]
+      }
+    }
+  ]
+}

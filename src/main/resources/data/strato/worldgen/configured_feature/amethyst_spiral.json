@@ -1,0 +1,36 @@
+{
+  "type": "strato:spiral",
+  "config": {
+    "validBlocks": [
+      "minecraft:smooth_basalt",
+      "minecraft:deepslate"
+    ],
+    "stemMaterial": {
+      "Name": "minecraft:amethyst_block"
+    },
+    "leafMaterial": {
+      "Name": "minecraft:air"
+    },
+    "blobMass": {
+      "type": "minecraft:uniform",
+      "value": {
+        "min_inclusive": 26,
+        "max_inclusive": 38
+      }
+    },
+    "blobWidth": {
+      "type": "minecraft:uniform",
+      "value": {
+        "min_inclusive": 12,
+        "max_inclusive": 18
+      }
+    },
+    "blobHeight": {
+      "type": "minecraft:uniform",
+      "value": {
+        "min_inclusive": 2,
+        "max_inclusive": 3
+      }
+    }
+  }
+}

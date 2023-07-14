@@ -1,0 +1,21 @@
+{
+  "type": "strato:catching_fall",
+  "config": {
+    "state": {
+      "Name": "minecraft:water"
+    },
+    "rock_count": 2,
+    "hole_count": 1,
+    "requires_block_below": false,
+    "validBlocks": [
+      "minecraft:smooth_basalt",
+      "minecraft:deepslate",
+      "minecraft:calcite"
+    ],
+    "invalidBlocks": [
+      "minecraft:amethyst_block"
+    ],
+    "basinMaterial": "minecraft:amethyst_block",
+    "basinMaterial2": "minecraft:budding_amethyst"
+  }
+}

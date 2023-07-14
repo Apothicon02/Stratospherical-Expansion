@@ -1,0 +1,24 @@
+{
+  "type": "strato:catching_fall",
+  "config": {
+    "state": {
+      "Name": "minecraft:water"
+    },
+    "rock_count": 2,
+    "hole_count": 1,
+    "requires_block_below": false,
+    "validBlocks": [
+      "minecraft:smooth_basalt",
+      "minecraft:deepslate",
+      "minecraft:calcite",
+      "minecraft:stone",
+      "minecraft:clay"
+    ],
+    "invalidBlocks": [
+      "minecraft:dripstone_block",
+      "minecraft:amethyst_block"
+    ],
+    "basinMaterial": "minecraft:obsidian",
+    "basinMaterial2": "minecraft:crying_obsidian"
+  }
+}

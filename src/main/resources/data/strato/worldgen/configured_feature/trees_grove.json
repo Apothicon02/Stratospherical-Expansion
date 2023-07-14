@@ -1,0 +1,20 @@
+{
+  "config": {
+    "features": [
+      {
+        "feature": "strato:snowy_cherry_bees",
+        "chance": 0.12
+      },
+      {
+        "feature": "strato:trunked_spruce",
+        "chance": 0.12
+      },
+      {
+        "feature": "strato:towering_spruce",
+        "chance": 0.66
+      }
+    ],
+    "default": "strato:towering_spruce"
+  },
+  "type": "minecraft:random_selector"
+}

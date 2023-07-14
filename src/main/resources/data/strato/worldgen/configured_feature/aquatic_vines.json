@@ -1,0 +1,119 @@
+{
+  "type": "minecraft:block_column",
+  "config": {
+    "direction": "down",
+    "allowed_placement": {
+      "type": "minecraft:matching_blocks",
+      "blocks": [
+        "minecraft:air"
+      ]
+    },
+    "prioritize_tip": true,
+    "layers": [
+      {
+        "height": {
+          "type": "minecraft:weighted_list",
+          "distribution": [
+            {
+              "weight": 2,
+              "data": {
+                "type": "minecraft:uniform",
+                "value": {
+                  "min_inclusive": 0,
+                  "max_inclusive": 15
+                }
+              }
+            },
+            {
+              "weight": 3,
+              "data": {
+                "type": "minecraft:uniform",
+                "value": {
+                  "min_inclusive": 0,
+                  "max_inclusive": 12
+                }
+              }
+            },
+            {
+              "weight": 6,
+              "data": {
+                "type": "minecraft:uniform",
+                "value": {
+                  "min_inclusive": 0,
+                  "max_inclusive": 17
+                }
+              }
+            },
+            {
+              "weight": 5,
+              "data": {
+                "type": "minecraft:uniform",
+                "value": {
+                  "min_inclusive": 0,
+                  "max_inclusive": 42
+                }
+              }
+            },
+            {
+              "weight": 3,
+              "data": {
+                "type": "minecraft:uniform",
+                "value": {
+                  "min_inclusive": 0,
+                  "max_inclusive": 43
+                }
+              }
+            },
+            {
+              "weight": 3,
+              "data": {
+                "type": "minecraft:uniform",
+                "value": {
+                  "min_inclusive": 0,
+                  "max_inclusive": 46
+                }
+              }
+            }
+          ]
+        },
+        "provider": {
+          "type": "minecraft:weighted_state_provider",
+          "entries": [
+            {
+              "weight": 18,
+              "data": {
+                "Name": "minecraft:prismarine"
+              }
+            },
+            {
+              "weight": 1,
+              "data": {
+                "Name": "minecraft:sea_lantern"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "height": 1,
+        "provider": {
+          "type": "minecraft:weighted_state_provider",
+          "entries": [
+            {
+              "weight": 28,
+              "data": {
+                "Name": "minecraft:prismarine"
+              }
+            },
+            {
+              "weight": 1,
+              "data": {
+                "Name": "minecraft:sea_lantern"
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

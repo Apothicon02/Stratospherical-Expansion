@@ -1,0 +1,43 @@
+{
+  "feature": "strato:frozen_mountainous_rocks",
+  "placement": [
+    {
+      "type": "minecraft:count",
+      "count": {
+        "type": "minecraft:weighted_list",
+        "distribution": [
+          {
+            "weight": 1,
+            "data": 2
+          },
+          {
+            "weight": 6,
+            "data": 4
+          },
+          {
+            "weight": 24,
+            "data": 24
+          },
+          {
+            "weight": 17,
+            "data": 22
+          },
+          {
+            "weight": 17,
+            "data": 28
+          }
+        ]
+      }
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "minecraft:heightmap",
+      "heightmap": "OCEAN_FLOOR"
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

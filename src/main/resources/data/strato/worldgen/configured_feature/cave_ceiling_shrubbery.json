@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:random_patch",
+  "config": {
+    "tries": 96,
+    "xz_spread": 4,
+    "y_spread": 3,
+    "feature": {
+      "feature": {
+        "type": "minecraft:simple_block",
+        "config": {
+          "to_place": {
+            "type": "minecraft:weighted_state_provider",
+            "entries": [
+              {
+                "weight": 6,
+                "data": {
+                  "Name": "minecraft:azalea_leaves",
+                  "Properties": {
+                    "distance": "7",
+                    "persistent": "true"
+                  }
+                }
+              },
+              {
+                "weight": 2,
+                "data": {
+                  "Name": "minecraft:flowering_azalea_leaves",
+                  "Properties": {
+                    "distance": "7",
+                    "persistent": "true"
+                  }
+                }
+              }
+            ]
+          }
+        }
+      },
+      "placement": []
+    }
+  }
+}

@@ -108,132 +108,7 @@
     "water_ambient": [],
     "misc": []
   },
-  "spawn_costs": {
-    "minecraft:cow": {
-      "energy_budget": 0.12,
-      "charge": 1
-    },
-    "minecraft:sheep": {
-      "energy_budget": 0.12,
-      "charge": 1
-    },
-    "minecraft:pig": {
-      "energy_budget": 0.12,
-      "charge": 1
-    },
-    "minecraft:chicken": {
-      "energy_budget": 0.12,
-      "charge": 1
-    },
-    "minecraft:mooshroom": {
-      "energy_budget": 0.12,
-      "charge": 1
-    },
-    "minecraft:horse": {
-      "energy_budget": 0.12,
-      "charge": 1
-    },
-    "minecraft:donkey": {
-      "energy_budget": 0.12,
-      "charge": 1
-    },
-    "minecraft:mule": {
-      "energy_budget": 0.12,
-      "charge": 1
-    },
-    "minecraft:llama": {
-      "energy_budget": 0.12,
-      "charge": 1
-    },
-    "minecraft:bee": {
-      "energy_budget": 0.12,
-      "charge": 1
-    },
-    "minecraft:parrot": {
-      "energy_budget": 0.12,
-      "charge": 1
-    },
-    "minecraft:pufferfish": {
-      "energy_budget": 0.12,
-      "charge": 1
-    },
-    "minecraft:tropical_fish": {
-      "energy_budget": 0.12,
-      "charge": 1
-    },
-    "minecraft:cod": {
-      "energy_budget": 0.12,
-      "charge": 1
-    },
-    "minecraft:salmon": {
-      "energy_budget": 0.12,
-      "charge": 1
-    },
-    "minecraft:zombie": {
-      "energy_budget": 0.12,
-      "charge": 1
-    },
-    "minecraft:zombie_villager": {
-      "energy_budget": 0.12,
-      "charge": 1
-    },
-    "minecraft:stray": {
-      "energy_budget": 0.12,
-      "charge": 1
-    },
-    "minecraft:husk": {
-      "energy_budget": 0.12,
-      "charge": 1
-    },
-    "minecraft:skeleton": {
-      "energy_budget": 0.12,
-      "charge": 1
-    },
-    "minecraft:creeper": {
-      "energy_budget": 0.12,
-      "charge": 1
-    },
-    "minecraft:cave_spider": {
-      "energy_budget": 0.12,
-      "charge": 1
-    },
-    "minecraft:spider": {
-      "energy_budget": 0.12,
-      "charge": 1
-    },
-    "minecraft:slime": {
-      "energy_budget": 0.12,
-      "charge": 1
-    },
-    "minecraft:enderman": {
-      "energy_budget": 0.12,
-      "charge": 1
-    },
-    "minecraft:witch": {
-      "energy_budget": 0.12,
-      "charge": 1
-    },
-    "minecraft:turtle": {
-      "energy_budget": 0.12,
-      "charge": 1
-    },
-    "minecraft:bat": {
-      "energy_budget": 0.12,
-      "charge": 1
-    },
-    "minecraft:squid": {
-      "energy_budget": 0.12,
-      "charge": 1
-    },
-    "minecraft:glow_squid": {
-      "energy_budget": 0.12,
-      "charge": 1
-    },
-    "minecraft:axolotl": {
-      "energy_budget": 0.12,
-      "charge": 1
-    }
-  },
+  "spawn_costs": {},
   "carvers": {
     "air": [
       "minecraft:cave",
@@ -244,10 +119,14 @@
   "features": [
     [],
     [
+      "minecraft:lake_lava_underground",
       "minecraft:lake_lava_surface"
     ],
     [
-      "minecraft:amethyst_geode"
+      "minecraft:amethyst_geode",
+      "strato:sparse_packed_ice_pillar",
+      "strato:thin_ice_pillar",
+      "strato:sparse_thin_blue_ice_pillar"
     ],
     [
       "minecraft:monster_room",
@@ -302,11 +181,13 @@
       "strato:fern_grass",
       "minecraft:patch_sugar_cane",
       "minecraft:patch_berry_rare",
-      "minecraft:lush_caves_ceiling_vegetation",
-      "minecraft:cave_vines",
-      "minecraft:rooted_azalea_tree",
-      "minecraft:spore_blossom",
-      "minecraft:classic_vines_cave_feature"
+      "strato:amethyst_spiral",
+      "strato:amethyst_void_crystals",
+      "strato:sparse_amethyst_void_ceiling_crystals",
+      "strato:sparse_amethyst_vine",
+      "strato:snowy_pool_with_ice",
+      "strato:powdered_snow_pool",
+      "strato:patch_snow_layer"
     ],
     [
       "minecraft:freeze_top_layer"

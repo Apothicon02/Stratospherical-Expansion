@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "berries=false": {
+      "model": "strato:block/amethyst_vines_plant"
+    },
+    "berries=true": {
+      "model": "strato:block/amethyst_vines_plant_ripe"
+    }
+  }
+}

@@ -4,6 +4,7 @@
     "#minecraft:base_stone_overworld",
     "#minecraft:cave_vines",
     "#minecraft:dirt",
-    "#minecraft:sand"
+    "#minecraft:sand",
+    "#minecraft:mud"
   ]
 }

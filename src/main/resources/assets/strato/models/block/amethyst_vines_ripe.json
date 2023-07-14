@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "strato:block/amethyst_vines_ripe"
+  }
+}

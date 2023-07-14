@@ -1,0 +1,16 @@
+{
+  "config": {
+    "features": [
+      {
+        "feature": "strato:calcite_mountainous_rocks",
+        "chance": 0.75
+      },
+      {
+        "feature": "strato:diorite_mountainous_rocks",
+        "chance": 0.25
+      }
+    ],
+    "default": "strato:calcite_mountainous_rocks"
+  },
+  "type": "minecraft:random_selector"
+}

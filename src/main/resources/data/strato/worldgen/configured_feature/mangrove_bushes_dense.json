@@ -1,0 +1,16 @@
+{
+  "config": {
+    "features": [
+      {
+        "feature": "strato:mangrove_bush",
+        "chance": 0.75
+      },
+      {
+        "feature": "strato:rooted_bush",
+        "chance": 0.25
+      }
+    ],
+    "default": "strato:mangrove_bush"
+  },
+  "type": "minecraft:random_selector"
+}

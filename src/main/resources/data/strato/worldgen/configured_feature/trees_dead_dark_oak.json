@@ -1,0 +1,16 @@
+{
+    "config": {
+      "features": [
+        {
+          "feature": "strato:dead_short_dark_oak",
+          "chance": 0.1
+        },
+        {
+          "feature": "strato:dead_normal_dark_oak",
+          "chance": 0.9
+        }
+      ],
+      "default": "strato:dead_normal_dark_oak"
+    },
+    "type": "minecraft:random_selector"
+  }

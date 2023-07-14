@@ -1,0 +1,83 @@
+{
+  "type": "strato:non_floating_patch",
+  "config": {
+    "surface": "floor",
+    "depth": 2,
+    "vertical_range": 5,
+    "extra_bottom_block_chance": 0.8,
+    "extra_edge_column_chance": 0.7,
+    "vegetation_chance": 0.1,
+    "xz_radius": {
+      "type": "minecraft:uniform",
+      "value": {
+        "min_inclusive": 4,
+        "max_inclusive": 6
+      }
+    },
+    "replaceable": "#minecraft:base_stone_overworld",
+    "ground_state": {
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "minecraft:sand"
+      }
+    },
+    "vegetation_feature": {
+      "feature": "minecraft:jungle_tree",
+      "placement": [
+        {
+          "type": "minecraft:count",
+          "count": {
+            "type": "minecraft:weighted_list",
+            "distribution": [
+              {
+                "weight": 4,
+                "data": 1
+              },
+              {
+                "weight": 1,
+                "data": 3
+              },
+              {
+                "weight": 205,
+                "data": 0
+              }
+            ]
+          }
+        },
+        {
+          "type": "minecraft:in_square"
+        },
+        {
+          "type": "minecraft:environment_scan",
+          "direction_of_search": "down",
+          "max_steps": 3,
+          "target_condition": {
+            "type": "minecraft:matching_blocks",
+            "offset": [
+              0,
+              -1,
+              0
+            ],
+            "blocks": "#minecraft:sand"
+          },
+          "allowed_search_condition": {
+            "type": "minecraft:not",
+            "predicate": {
+              "type": "minecraft:matching_fluids",
+              "offset": [
+                0,
+                0,
+                0
+              ],
+              "fluids": [
+                "minecraft:lava",
+                "minecraft:water",
+                "minecraft:flowing_lava"
+              ]
+            }
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "type": "strato:catching_fall",
+  "config": {
+    "state": {
+      "Name": "minecraft:powder_snow"
+    },
+    "rock_count": 2,
+    "hole_count": 1,
+    "requires_block_below": false,
+    "validBlocks": [
+      "minecraft:smooth_basalt",
+      "minecraft:deepslate",
+      "minecraft:calcite",
+      "minecraft:stone",
+      "minecraft:clay",
+      "minecraft:prismarine",
+      "minecraft:sand",
+      "minecraft:gravel",
+      "minecraft:dirt",
+      "minecraft:frosted_ice"
+    ],
+    "invalidBlocks": [
+      "minecraft:dripstone_block",
+      "minecraft:amethyst_block",
+      "minecraft:dark_prismarine",
+      "minecraft:packed_ice",
+      "minecraft:blue_ice",
+      "minecraft:ice"
+    ],
+    "basinMaterial": "minecraft:snow_block",
+    "basinMaterial2": "minecraft:powder_snow"
+  }
+}

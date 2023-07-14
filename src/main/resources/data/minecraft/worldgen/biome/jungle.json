@@ -163,132 +163,7 @@
     "water_ambient": [],
     "misc": []
   },
-  "spawn_costs": {
-    "minecraft:cow": {
-      "energy_budget": 0.12,
-      "charge": 1
-    },
-    "minecraft:sheep": {
-      "energy_budget": 0.12,
-      "charge": 1
-    },
-    "minecraft:pig": {
-      "energy_budget": 0.12,
-      "charge": 1
-    },
-    "minecraft:chicken": {
-      "energy_budget": 0.12,
-      "charge": 1
-    },
-    "minecraft:mooshroom": {
-      "energy_budget": 0.12,
-      "charge": 1
-    },
-    "minecraft:horse": {
-      "energy_budget": 0.12,
-      "charge": 1
-    },
-    "minecraft:donkey": {
-      "energy_budget": 0.12,
-      "charge": 1
-    },
-    "minecraft:mule": {
-      "energy_budget": 0.12,
-      "charge": 1
-    },
-    "minecraft:llama": {
-      "energy_budget": 0.12,
-      "charge": 1
-    },
-    "minecraft:bee": {
-      "energy_budget": 0.12,
-      "charge": 1
-    },
-    "minecraft:parrot": {
-      "energy_budget": 0.12,
-      "charge": 1
-    },
-    "minecraft:pufferfish": {
-      "energy_budget": 0.12,
-      "charge": 1
-    },
-    "minecraft:tropical_fish": {
-      "energy_budget": 0.12,
-      "charge": 1
-    },
-    "minecraft:cod": {
-      "energy_budget": 0.12,
-      "charge": 1
-    },
-    "minecraft:salmon": {
-      "energy_budget": 0.12,
-      "charge": 1
-    },
-    "minecraft:zombie": {
-      "energy_budget": 0.12,
-      "charge": 1
-    },
-    "minecraft:zombie_villager": {
-      "energy_budget": 0.12,
-      "charge": 1
-    },
-    "minecraft:stray": {
-      "energy_budget": 0.12,
-      "charge": 1
-    },
-    "minecraft:husk": {
-      "energy_budget": 0.12,
-      "charge": 1
-    },
-    "minecraft:skeleton": {
-      "energy_budget": 0.12,
-      "charge": 1
-    },
-    "minecraft:creeper": {
-      "energy_budget": 0.12,
-      "charge": 1
-    },
-    "minecraft:cave_spider": {
-      "energy_budget": 0.12,
-      "charge": 1
-    },
-    "minecraft:spider": {
-      "energy_budget": 0.12,
-      "charge": 1
-    },
-    "minecraft:slime": {
-      "energy_budget": 0.12,
-      "charge": 1
-    },
-    "minecraft:enderman": {
-      "energy_budget": 0.12,
-      "charge": 1
-    },
-    "minecraft:witch": {
-      "energy_budget": 0.12,
-      "charge": 1
-    },
-    "minecraft:turtle": {
-      "energy_budget": 0.12,
-      "charge": 1
-    },
-    "minecraft:bat": {
-      "energy_budget": 0.12,
-      "charge": 1
-    },
-    "minecraft:squid": {
-      "energy_budget": 0.12,
-      "charge": 1
-    },
-    "minecraft:glow_squid": {
-      "energy_budget": 0.12,
-      "charge": 1
-    },
-    "minecraft:axolotl": {
-      "energy_budget": 0.12,
-      "charge": 1
-    }
-  },
+  "spawn_costs": {},
   "carvers": {
     "air": [
       "minecraft:cave",
@@ -299,16 +174,22 @@
   "features": [
     [],
     [
+      "minecraft:lake_lava_underground",
       "minecraft:lake_lava_surface"
     ],
     [
-      "minecraft:amethyst_geode"
+      "minecraft:amethyst_geode",
+      "strato:sparse_granite_pillar",
+      "strato:sparse_honeycomb_pillar",
+      "strato:thin_honey_pillar"
     ],
     [
       "minecraft:monster_room",
       "minecraft:monster_room_deep"
     ],
-    [],
+    [
+      "strato:clay_water_fall"
+    ],
     [],
     [
       "minecraft:ore_dirt",
@@ -362,14 +243,18 @@
       "minecraft:patch_sugar_cane",
       "minecraft:patch_melon",
       "minecraft:warm_ocean_vegetation",
-      "minecraft:large_dripstone",
-      "minecraft:dripstone_cluster",
-      "minecraft:pointed_dripstone",
+      "strato:dense_rooted_azalea_trees",
+      "strato:rooted_towering_jungle_trees",
+      "strato:rooted_branching_jungle_trees",
+      "strato:rooted_jungle_bushes",
       "minecraft:lush_caves_ceiling_vegetation",
-      "minecraft:cave_vines",
+      "strato:hanging_bee_hive",
+      "strato:cave_ceiling_shrubbery",
+      "strato:cave_leaf_vines",
+      "strato:lush_cave_vines",
+      "strato:dirt_pool_with_dripleaves",
       "strato:sparse_lush_caves_vegetation",
-      "minecraft:rooted_azalea_tree",
-      "minecraft:spore_blossom",
+      "strato:lush_spore_blossom",
       "minecraft:classic_vines_cave_feature"
     ],
     [

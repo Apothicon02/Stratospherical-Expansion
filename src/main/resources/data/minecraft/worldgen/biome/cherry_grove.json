@@ -135,13 +135,19 @@
       "minecraft:lake_lava_surface"
     ],
     [
-      "minecraft:amethyst_geode"
+      "minecraft:amethyst_geode",
+      "strato:sparse_smooth_basalt_pillar",
+      "strato:amethyst_crystal_spike",
+      "strato:amethyst_crystal_ground_spike",
+      "strato:amethyst_spiral"
     ],
     [
       "minecraft:monster_room",
       "minecraft:monster_room_deep"
     ],
-    [],
+    [
+      "strato:amethyst_water_fall"
+    ],
     [],
     [
       "minecraft:ore_dirt",
@@ -173,7 +179,13 @@
       "minecraft:disk_clay",
       "minecraft:disk_gravel"
     ],
-    [],
+    [
+      "strato:smooth_basalt_blob",
+      "strato:calcite_blob",
+      "strato:calcite_ground_blob",
+      "strato:deepslate_calcite_blob",
+      "strato:smooth_basalt_calcite_blob"
+    ],
     [
       "minecraft:spring_water",
       "minecraft:spring_lava"
@@ -193,11 +205,10 @@
       "minecraft:patch_pumpkin",
       "minecraft:patch_berry_rare",
       "minecraft:warm_ocean_vegetation",
-      "minecraft:lush_caves_ceiling_vegetation",
-      "minecraft:cave_vines",
-      "minecraft:rooted_azalea_tree",
-      "minecraft:spore_blossom",
-      "minecraft:classic_vines_cave_feature"
+      "strato:amethyst_void_crystals",
+      "strato:amethyst_void_ceiling_crystals",
+      "strato:amethyst_vine",
+      "strato:lush_spore_blossom"
     ],
     [
       "minecraft:freeze_top_layer"

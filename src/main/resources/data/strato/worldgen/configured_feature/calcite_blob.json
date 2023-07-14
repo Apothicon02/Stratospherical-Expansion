@@ -1,0 +1,35 @@
+{
+  "type": "strato:additive_blob",
+  "config": {
+    "blockOn": {
+      "Name": "minecraft:deepslate"
+    },
+    "blockOn2": {
+      "Name": "minecraft:smooth_basalt"
+    },
+    "blobMaterial": {
+      "Name": "minecraft:calcite"
+    },
+    "blobMass": {
+      "type": "minecraft:uniform",
+      "value": {
+        "min_inclusive": 164,
+        "max_inclusive": 239
+      }
+    },
+    "blobWidth": {
+      "type": "minecraft:uniform",
+      "value": {
+        "min_inclusive": 4,
+        "max_inclusive": 5
+      }
+    },
+    "blobHeight": {
+      "type": "minecraft:uniform",
+      "value": {
+        "min_inclusive": 6,
+        "max_inclusive": 12
+      }
+    }
+  }
+}

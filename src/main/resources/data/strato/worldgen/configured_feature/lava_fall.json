@@ -1,0 +1,21 @@
+{
+  "type": "strato:catching_fall",
+  "config": {
+    "state": {
+      "Name": "minecraft:lava"
+    },
+    "rock_count": 2,
+    "hole_count": 1,
+    "requires_block_below": false,
+    "validBlocks": [
+      "minecraft:basalt",
+      "minecraft:deepslate",
+      "minecraft:magma_block"
+    ],
+    "invalidBlocks": [
+      "minecraft:blackstone"
+    ],
+    "basinMaterial": "minecraft:blackstone",
+    "basinMaterial2": "minecraft:magma_block"
+  }
+}
